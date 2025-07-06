@@ -1,5 +1,5 @@
 {
-  "name": "curotec",
+  "name": "zustand-context-web",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -14,6 +14,7 @@
   "dependencies": {
     "react": "18.3.1",
     "react-dom": "18.3.1",
+    "react-router-dom": "6.30.1",
     "zustand": "4.5.7"
   },
   "devDependencies": {
