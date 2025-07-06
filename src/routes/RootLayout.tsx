@@ -11,6 +11,7 @@ export default function RootLayout() {
                 <Link
                   to="/"
                   className="text-gray-700 hover:text-blue-600 text-xs"
+                  data-testid="root-layout-link-home"
                 >
                   Home
                 </Link>
@@ -19,6 +20,7 @@ export default function RootLayout() {
                 <Link
                   to="/react-context"
                   className="text-gray-700 hover:text-blue-600 font-medium"
+                  data-testid="root-layout-link-context"
                 >
                   React Context
                 </Link>
@@ -27,6 +29,7 @@ export default function RootLayout() {
                 <Link
                   to="/zustand"
                   className="text-gray-700 hover:text-blue-600 font-medium"
+                  data-testid="root-layout-link-zustand"
                 >
                   Zustand
                 </Link>
@@ -36,7 +39,10 @@ export default function RootLayout() {
         </div>
       </header>
 
-      <main className="flex-grow container mx-auto px-4 py-6">
+      <main
+        className="flex-grow container mx-auto px-4 py-6"
+        data-testid="root-layout-main"
+      >
         <Outlet />
       </main>
     </div>
