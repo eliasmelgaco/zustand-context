@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect, memo, FC, RefObject } from 'react';
+import { useState, useRef, useEffect, memo, RefObject } from 'react';
 import { User } from '../../types/Employee';
 
 interface EmployeeGridVirtualizedBodyProps {
