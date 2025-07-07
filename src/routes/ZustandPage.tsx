@@ -1,3 +1,5 @@
+import EmployeePage from '../components/EmployeGrid';
+
 export default function ZustandPage() {
-  return <>Zustand Page</>;
+  return <EmployeePage />;
 }
