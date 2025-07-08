@@ -1,3 +1,5 @@
+import RegistrationPage from '../components/RegistrationForm';
+
 export default function ReactContextPage() {
-  return <>React Context Page</>;
+  return <RegistrationPage />;
 }
